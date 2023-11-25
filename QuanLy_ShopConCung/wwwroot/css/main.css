@@ -637,7 +637,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 [ Fixed menu desktop ]*/
 
 .fix-menu-desktop .wrap-menu-desktop {
-  height: 70px;
+  height: 84px;
   background-color: rgba(255,255,255,1);
   box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
@@ -647,7 +647,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .header-v2 .fix-menu-desktop.container-menu-desktop {
-  height: 70px;
+  height: 84px;
 }
 
 .header-v3 .fix-menu-desktop .wrap-menu-desktop {

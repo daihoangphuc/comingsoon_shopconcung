@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7EOvVLNOVI+8aLwJ06TMoBG/d4ZMasK/TEh2AtXGPppNk3baoaYhxD8bZbcS3Flpal3PzA2dIsPzB6FX2ZHlLQ==",
+  "dgSpecHash": "ea3BU+lP+vC6uaAKcVp6ymJenlbLX7fx72yMUd4/5esD0B4hYWAhXnZaUJD2U9DOSJ1SWeNmJMaonvZp4MuDxg==",
   "success": true,
-  "projectFilePath": "D:\\A_Do_An_KT_Mon\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj",
+  "projectFilePath": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

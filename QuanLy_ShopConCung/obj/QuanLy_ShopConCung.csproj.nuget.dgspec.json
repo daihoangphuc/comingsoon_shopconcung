@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\A_Do_An_KT_Mon\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj": {}
+    "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj": {}
   },
   "projects": {
-    "D:\\A_Do_An_KT_Mon\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj": {
+    "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A_Do_An_KT_Mon\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj",
+        "projectUniqueName": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj",
         "projectName": "QuanLy_ShopConCung",
-        "projectPath": "D:\\A_Do_An_KT_Mon\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj",
+        "projectPath": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\QuanLy_ShopConCung.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\A_Do_An_KT_Mon\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\obj\\",
+        "outputPath": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

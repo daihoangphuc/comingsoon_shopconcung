@@ -1,4 +1,4 @@
-﻿@model QuanLy_ShopConCung.Models.Product
+﻿@model QuanLy_ShopConCung.Models.Product	
 @using System.Globalization;
 @{
     ViewData["Title"] = "Details";
@@ -42,11 +42,10 @@
 								<div class="rs1-select2 bor8 bg0">
 									<select class="js-select2" name="time">
 										<option>Choose an option</option>
-										<option>Size S</option>
-										<option>Size XS</option>
-										<option>Size M</option>
-										<option>Size L</option>
-										<option>Size XL</option>
+										<option>Size Small</option>
+										<option>Size Medium</option>
+										<option>Size Big</option>
+
 									</select>
 									<div class="dropDownSelect2"></div>
 								</div>
@@ -76,17 +75,7 @@
 
 						<div class="flex-w flex-r-m p-b-10">
 							<div class="size-204 flex-w flex-m respon6-next">
-								<div class="wrap-num-product flex-w m-r-20 m-tb-10">
-									<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
-										<i class="fs-16 zmdi zmdi-minus"></i>
-									</div>
-
-									<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product" value="1">
-
-									<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
-										<i class="fs-16 zmdi zmdi-plus"></i>
-									</div>
-								</div>
+								
 
 								<a href="/Cart/AddToCart/?productId=@Model.ProductId" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
 									Add To Cart
@@ -199,7 +188,7 @@
 										</span>
 
 										<span class="stext-102 cl6 size-206">
-											XL, L, M, S
+											Small, Medium, Big
 										</span>
 									</li>
 								</ul>
@@ -294,13 +283,4 @@
 		</div>
 	</div>
 
-	<div class="bg6 flex-c-m flex-w size-302 m-t-73 p-tb-15">
-		<span class="stext-107 cl6 p-lr-25">
-			SKU: JAK-01
-		</span>
-
-		<span class="stext-107 cl6 p-lr-25">
-			Categories: Jacket, Men
-		</span>
-	</div>
 </section>

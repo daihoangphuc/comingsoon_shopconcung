@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using QuanLy_ShopConCung.Data;
 using QuanLy_ShopConCung.Models;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace QuanLy_ShopConCung.Controllers
 {
@@ -62,9 +64,18 @@ namespace QuanLy_ShopConCung.Controllers
         }
         public IActionResult Logout()
         {
-            HttpContext.SignOutAsync(
+			HttpContext.Session.Clear();
+			HttpContext.SignOutAsync(
             CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "Account");
         }
+
+
+
+
+        //Dang ki
+
+       
+
     }
 }

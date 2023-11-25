@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Globalization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 
 //new
+
+
+
 builder.Services.AddAuthorization(options =>
 {
 	options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
@@ -36,6 +40,13 @@ builder.Services.AddAuthorization(options =>
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
+
+
+// 211123
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme);
+builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+//
+
 
 
 var app = builder.Build();

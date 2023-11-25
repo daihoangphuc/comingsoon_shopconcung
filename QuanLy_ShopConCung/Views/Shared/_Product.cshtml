@@ -1,17 +1,23 @@
 ﻿@model QuanLy_ShopConCung.Models.Product
 @using System.Globalization;
 
+@{
+	string a = @Model.Category?.CategoryName;
+}
 
-
-<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item @Model.Category?.CategoryName?.ToLower()">
+<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item @a?.ToLower()">
 	<!-- Block2 -->
 	<div class="block2">
 		<div class="block2-pic hov-img0">
 			<img src="@Model.ProductPhoto" alt="IMG-PRODUCT">
 
-			<a href="/Products/Details/?id=@Model.ProductId" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-				Quick View
-			</a>
+		
+<!--
+
+						<a href="/" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+							Buy Now
+						</a>
+-->
 		</div>
 
 		<div class="block2-txt flex-w flex-t p-t-14">
@@ -24,13 +30,7 @@
 				<span class="stext-105 cl3">
 					@Model.ProductPrice.ToString("C", CultureInfo.CreateSpecificCulture("vi-VN")).TrimEnd('₫') VND
 				</span>
-				<div class="add-cart">
-					<a href="/Cart/AddToCart/?productId=@Model.ProductId" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" id="addtocart">
-						<!--  class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" (of id addtocart)-->
-						Add To Cart
-
-					</a>
-				</div>
+				
 			</div>
 
 			<div class="block2-txt-child2 flex-r p-t-3">

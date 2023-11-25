@@ -16,7 +16,10 @@ namespace QuanLy_ShopConCung.Controllers
 		{
 			_context = context;
 		}
-
+		public IActionResult Index()
+		{
+			return View("Cart", HttpContext.Session.GetJson<Cart>("cart"));
+		}
 		public IActionResult ShowCart(int productId)
 		{
 			Product? product = _context.Products

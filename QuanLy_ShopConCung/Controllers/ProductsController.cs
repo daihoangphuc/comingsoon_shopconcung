@@ -26,6 +26,11 @@ namespace QuanLy_ShopConCung.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+        public async Task<IActionResult> AdminManager()
+        {
+            return View("AdminManager");
+        }
+
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
         {

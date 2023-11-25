@@ -350,7 +350,6 @@ namespace QuanLy_ShopConCung.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserRole")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserId");

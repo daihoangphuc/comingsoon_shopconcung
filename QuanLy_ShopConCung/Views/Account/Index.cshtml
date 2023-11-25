@@ -6,22 +6,22 @@
 }
 @if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
 {
-    <h1>
-        Chào Admin, hãy vào trang
-        <a asp-area="" asp-controller="Admin" asp-action="Index">quản lí người dùng</a>
-        của bạn!
-    </h1>
+    <script>
+        window.location.href = '@Url.Action("Index", "Admin")';
+    </script>
+
 }
 else
 {
-    <h1>
-        Xin chào khách hàng @{
+    <script>
+        alert("Xin chào khách hàng@{
             TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
 
             // Sử dụng ToTitleCase để viết hoa chữ cái đầu tiên
             string result = textInfo.ToTitleCase(User.Identity.Name.Split('@')[0]);
-        } @result, giờ bạn đã có thể mua hàng <a href="/Products">tại đây</a>
-    </h1>
+        } @result, giờ bạn đã có thể mua hàng tại đây!")
+        window.location.href = '@Url.Action("Index", "Products")';
+    </script>
 }
 
 
