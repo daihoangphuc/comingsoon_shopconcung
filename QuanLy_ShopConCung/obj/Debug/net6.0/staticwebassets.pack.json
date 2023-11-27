@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\Admin_sources\\images\\products\\s7.jpg"
     },
     {
+      "Id": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\wwwroot\\Admin_sources\\images\\profile\\avt_admin.jpg",
+      "PackagePath": "staticwebassets\\Admin_sources\\images\\profile\\avt_admin.jpg"
+    },
+    {
       "Id": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\wwwroot\\Admin_sources\\images\\profile\\user-1.jpg",
       "PackagePath": "staticwebassets\\Admin_sources\\images\\profile\\user-1.jpg"
     },

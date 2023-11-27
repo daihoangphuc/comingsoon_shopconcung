@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rMiRLtFPY9PKTzHFd//pOIwmgdEupMgTsWO6VH/y5n8=",
+  "Hash": "BcUYugW/9K0p9iqkV1pz4jXeppTUSalPJQZHjhmawko=",
   "Source": "QuanLy_ShopConCung",
   "BasePath": "_content/QuanLy_ShopConCung",
   "Mode": "Default",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin_sources\\images\\products\\s7.jpg"
+    },
+    {
+      "Identity": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\wwwroot\\Admin_sources\\images\\profile\\avt_admin.jpg",
+      "SourceId": "QuanLy_ShopConCung",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\wwwroot\\",
+      "BasePath": "_content/QuanLy_ShopConCung",
+      "RelativePath": "Admin_sources/images/profile/avt_admin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin_sources\\images\\profile\\avt_admin.jpg"
     },
     {
       "Identity": "E:\\QuanLy_ShopConCung\\QuanLy_ShopConCung\\wwwroot\\Admin_sources\\images\\profile\\user-1.jpg",

@@ -26,13 +26,20 @@ namespace QuanLy_ShopConCung.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        public async Task<IActionResult> AdminManager()
-        {
-            return View("AdminManager");
-        }
+        //search
 
-        // GET: Products/Details/5
-        public async Task<IActionResult> Details(int? id)
+        [HttpGet]
+        public IActionResult Search(string searchString)
+        {
+            var products = from p in _context.Products select p;    
+            if(!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(x=>x.ProductName.Contains(searchString));
+            }
+            return View(products);
+        }
+		// GET: Products/Details/5
+		public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Products == null)
             {
